@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "cherryblossom",
+      "email": "admin@bloggy.local",
+      "password_hash": "$2a$10$xPZWiYQ4SXsgosR9WdPEXeuztvQkpVQGmOXmO70.AvUSX96QoMNH6",
+      "role": "admin",
+      "created_at": "2026-10-11T06:26:57.399Z"
+    },
+    {
+      "id": 2,
+      "username": "mochi_reader",
+      "email": "reader@bloggy.local",
+      "password_hash": "$2a$10$xPZWiYQ4SXsgosR9WdPEXeuztvQkpVQGmOXmO70.AvUSX96QoMNH6",
+      "role": "reader",
+      "created_at": "2026-10-11T06:26:57.400Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Gentle Art of Cozy Coding",
+      "slug": "the-gentle-art-of-cozy-coding",
+      "excerpt": "How warm cups of matcha, soft lo-fi beats, and intentional pauses create software with heart and soul.",
+      "content": "### Finding Joy in the Little Details\n\nThere is a special quiet in the early morning before the world wakes up. When the kettle hums, and the aroma of freshly whisked matcha fills the room, opening a code editor feels less like work and more like crafting a cozy sanctuary.\n\n### Creating Your Comfort Zone\nIn modern software engineering, we often obsess over velocity, output metrics, and aggressive deadlines. But what if craftsmanship requires calm?\n\n1. **Warm Lighting**: Swap glaring overhead lights for soft 2700K ambient desk lamps.\n2. **Curated Sounds**: A gentle playlist of raindrops and acoustic guitar.\n3. **Mindful Commits**: Write commit messages that tell a story of gratitude and care.\n\n> \"Simplicity is not about having less. It is about making room for what matters.\"\n\nWhen we treat our tools with tenderness, our software becomes simpler, more robust, and infinitely more delightful to use.",
+      "reading_time_minutes": 4,
+      "featured_image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1200&q=80",
+      "author_id": 1,
+      "author_username": "cherryblossom",
+      "tags": [
+        "cozy",
+        "lifestyle",
+        "productivity",
+        "mindfulness"
+      ],
+      "status": "published",
+      "created_at": "2026-10-09T06:26:57.400Z",
+      "updated_at": "2026-10-09T06:26:57.400Z"
+    },
+    {
+      "id": 2,
+      "title": "Pastel Aesthetics in Modern Minimalist Design",
+      "slug": "pastel-aesthetics-in-modern-minimalist-design",
+      "excerpt": "Why soft creams, blush tones, and sage greens evoke psychological warmth and digital tranquility.",
+      "content": "### The Psychology of Soft Tones\n\nFor years, digital interfaces swung between sterile clinical white and stark obsidian dark mode. Today, a softer movement is flourishing: humanized interfaces wrapped in soothing pastel shades.\n\n- **Cream (#FAF7F2)** provides an organic canvas, reminiscent of handmade parchment.\n- **Blush Rose (#FAD2E1)** introduces warmth and empathy without the urgency of crimson.\n- **Soft Sage (#D8E2DC)** grounds the reader in natural harmony.\n\n### Rounded Radii & Micro-Elevations\nPairing subtle tones with 20px card radiuses and diffused shadows transforms rigid digital boxes into tactile, comforting cards.",
+      "reading_time_minutes": 3,
+      "featured_image_url": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=1200&q=80",
+      "author_id": 1,
+      "author_username": "cherryblossom",
+      "tags": [
+        "design",
+        "ux",
+        "minimalism"
+      ],
+      "status": "published",
+      "created_at": "2026-10-10T06:26:57.400Z",
+      "updated_at": "2026-10-10T06:26:57.400Z"
+    },
+    {
+      "id": 3,
+      "title": "Building Calm Web Architectures with Node and PostgreSQL",
+      "slug": "building-calm-web-architectures",
+      "excerpt": "Architectural reflections on keep-it-simple engineering: lightweight REST endpoints, index hygiene, and resilient proxies.",
+      "content": "### Serenity in System Design\n\nHigh-performing systems do not need to be intimidating monstrosities. By adhering to clean, foundational principles—like Express routers, parameterized PostgreSQL queries, and an Apache2 reverse proxy—we achieve enterprise-grade resilience with pure serenity.\n\n### The Recipe for Digital Peace of Mind\n\n- Parameterized SQL prevents injection effortlessly.\n- PM2 supervises processes quietly in the background.\n- Apache2 SSL termination handles TLS handshakes cleanly.",
+      "reading_time_minutes": 5,
+      "featured_image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+      "author_id": 1,
+      "author_username": "cherryblossom",
+      "tags": [
+        "engineering",
+        "postgresql",
+        "nodejs"
+      ],
+      "status": "published",
+      "created_at": "2026-10-11T06:26:57.400Z",
+      "updated_at": "2026-10-11T06:26:57.400Z"
+    },
+    {
+      "id": 4,
+      "title": "Draft Thoughts on Micro-Journaling",
+      "slug": "draft-thoughts-on-micro-journaling",
+      "excerpt": "A quick unpublished reflection on capturing two sentences a day.",
+      "content": "This is a draft post to demonstrate the admin dashboard draft vs published toggles. Readers cannot see this until it is published!",
+      "reading_time_minutes": 2,
+      "featured_image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80",
+      "author_id": 1,
+      "author_username": "cherryblossom",
+      "tags": [
+        "personal",
+        "draft"
+      ],
+      "status": "draft",
+      "created_at": "2026-10-11T06:26:57.400Z",
+      "updated_at": "2026-10-11T06:26:57.400Z"
+    },
+    {
+      "id": 5,
+      "title": "A Sip of Jasmine Tea at Midnight",
+      "slug": "a-sip-of-jasmine-tea-at-midnight",
+      "excerpt": "Brewing calm thoughts before sleep....",
+      "content": "Brewing calm thoughts before sleep.",
+      "reading_time_minutes": 1,
+      "featured_image_url": null,
+      "author_id": 1,
+      "tags": [
+        "lifestyle",
+        "cozy"
+      ],
+      "status": "draft",
+      "created_at": "2026-10-11T07:40:14.665Z",
+      "updated_at": "2026-10-11T07:40:14.665Z"
+    },
+    {
+      "id": 6,
+      "title": "Cozy Termux Journaling",
+      "slug": "cozy-termux-journaling",
+      "excerpt": "Running full-stack Node.js and React inside an Android terminal with proot-distro.",
+      "content": "Running Linux on a mobile device is the ultimate cozy hacking setup.\n## Heading 2\n\n## Heading 2\n\n## Heading 2\n\n## Heading 2\n\n> A beautiful quote inspires here.\n",
+      "reading_time_minutes": 1,
+      "featured_image_url": null,
+      "author_id": 1,
+      "tags": [
+        "cozy",
+        "thoughts"
+      ],
+      "status": "published",
+      "created_at": "2026-10-11T08:06:31.211Z",
+      "updated_at": "2026-10-11T08:06:31.211Z"
+    }
+  ],
+  "nextUserId": 3,
+  "nextPostId": 7
+}
