@@ -7,7 +7,12 @@ async function runMigration() {
   console.log('🌱 Starting Bloggy Database Initialization...');
 
   const connectionConfig = process.env.DATABASE_URL
-    ? { connectionString: process.env.DATABASE_URL }
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: !process.env.DATABASE_URL.includes('localhost') && !process.env.DATABASE_URL.includes('127.0.0.1')
+          ? { rejectUnauthorized: false }
+          : false
+      }
     : {
         user: process.env.PGUSER || 'postgres',
         host: process.env.PGHOST || 'localhost',

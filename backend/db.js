@@ -8,9 +8,10 @@ require('dotenv').config();
 const connectionConfig = process.env.DATABASE_URL
   ? {
       connectionString: process.env.DATABASE_URL,
-      ssl: process.env.NODE_ENV === 'production' && !process.env.DATABASE_URL.includes('localhost') 
+      ssl: !process.env.DATABASE_URL.includes('localhost') && !process.env.DATABASE_URL.includes('127.0.0.1')
         ? { rejectUnauthorized: false } 
         : false,
+      connectionTimeoutMillis: 10000,
     }
   : {
       user: process.env.PGUSER || 'postgres',
